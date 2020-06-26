@@ -1,10 +1,10 @@
 repository: stackrocky/stackrocky.github.io
-repository_url: https://github.com/stackrocky/stackrocky.github.io/tree/master/
+repository_url: https://github.com/stackrocky/stackrocky.github.io/
 
 timezone: Asia/Shanghai
 lang: zh_CN
 
-title: StackRocky · So-much
+title: StackRocky · Good.
 alias_en: StackRocky
 alias_cn: StackRocky
 description: RockyStack
@@ -14,14 +14,16 @@ established_at: "2016-10-01T00:00+08:00"
 
 author: Rocky
 author_url: https://rocky-co.github.io
-organization: TEELAB
-organization_url: https://teelab.net
+organization: Ha!
+organization_url: https://rocky-co.github.io
 contact: rocky[dot]dr[at]foxmail[dot]com
 
 image: /images/logo.png
 logo: /images/logo.png
 logo_dark: /images/logo-dark.svg
 logo_white: /images/logo-white.svg
+
+home: https://StackRocky.github.io/
 
 plugins:
 - jekyll-seo-tag
