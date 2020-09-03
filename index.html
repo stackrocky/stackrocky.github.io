@@ -2,7 +2,13 @@
 layout: default
 active_key: home
 ---
-
+<script>
+    console.log("恭喜你发现了彩蛋！哈哈，60秒之后就会被清除!")
+    var time = setTimeout(function(){
+        console.clear()
+        clearTimeout(time)
+    }, 60000)
+</script>
 {%- for section in site.data.links -%}
     <div class="ui vertical stripe links segment">
         <div class="ui equal width stackable internally celled grid">
